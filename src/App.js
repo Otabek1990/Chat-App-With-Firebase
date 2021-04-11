@@ -9,9 +9,7 @@ import Chats from "./components/chats/chats";
 import LoginPage from "./pages/login";
 import db,{auth} from "./firebase";
 import {useSelector,useDispatch} from "react-redux";
-//import {addUsername,deleteUsername} from './ReduxToolkit/userSlice.js'
 import {addChannel} from './ReduxToolkit/channelSlice.js'
-//import {fire} from './firebase';
 
 function App() {
 
@@ -31,8 +29,6 @@ function App() {
 
 })
   }
-
-
   //----------------
   const getUser=()=>{
     auth.onAuthStateChanged((user)=>{
@@ -49,7 +45,6 @@ function App() {
    getChannels()
    getUser()
   }, [])
-  //console.log(userEmail)
   //------------------------
  return (
   <Router>  

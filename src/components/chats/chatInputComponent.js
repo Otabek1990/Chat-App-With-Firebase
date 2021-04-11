@@ -8,11 +8,9 @@ import {useParams} from 'react-router-dom';
 import db from "../../firebase";
 import firebase from 'firebase';
 import {auth} from '../../firebase';
-import Avatar from '@material-ui/core/Avatar';
 
 const ChatInputComponent = (props) => {
 
-	//<Avatar alt="Remy Sharp" src="/static/images/avatar/1.jpg" className={classes.large} />
 const [text, setText] = useState('')
 const [user, setUser] = useState('')
 const {channelId}=useParams()
