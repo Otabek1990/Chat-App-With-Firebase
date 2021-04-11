@@ -14,7 +14,6 @@ const ChannelsList = () => {
  const channelInfos=useSelector(state=>state.channels)
 //const dispatch=useDispatch()
 //-----------------------------
-console.log(channelInfos)
 //---------------------
 const deleteChannelBtn=(e,id)=>{
 	e.preventDefault()

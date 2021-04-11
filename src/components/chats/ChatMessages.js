@@ -4,8 +4,10 @@ import AvatarPhoto from "./otabek.jpg";
 import {useSelector} from 'react-redux';
 import {useParams} from 'react-router-dom';
 import db from "../../firebase";
+import Avatar from '@material-ui/core/Avatar';
 
 const ChatMessages = (props) => {
+	//<Avatar alt="Remy Sharp" src="/static/images/avatar/1.jpg" className={classes.large} />
 
 const [messages, setMessages] = useState([])
 const {channelId}=useParams()
@@ -34,7 +36,8 @@ useEffect(() => {
           {messages.length>0 && 
             messages.map(item =>(
          <MessageContent>
-         <img src={item.userImage} alt="avatar" />
+         	<Avatar className="avatar" alt="Remy Sharp" src=""/>
+
          <div>
              <Name>
             	<p >{item.user}</p>
@@ -79,6 +82,17 @@ img{
 	cursor:pointer;
 	border-radius:6px
 
+}
+.avatar{
+	margin-top:10px;
+	margin-right:8px;
+	margin-left:5px;
+	height:50px;
+	width:50px;
+
+	:hover{
+		cursor:pointer
+	}
 }
 `
 const Name=styled.div`

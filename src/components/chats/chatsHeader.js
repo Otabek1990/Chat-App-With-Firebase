@@ -59,6 +59,7 @@ export default ChatsHeader;
 const Header=styled.div`
 width:100%;
 height:100%;
+padding:15px 3px;
 background-color:greenyellow;
 display:flex;
 justify-content:space-between;
@@ -69,7 +70,10 @@ const Channel=styled.div`
 display:flex;
 flex-direction:column;
 font-size:12px;
-padding-left:6px
+padding-left:6px;
+p{
+    padding-top:5px;
+}
 
 `
 const ChannelName=styled.div`
@@ -82,7 +86,8 @@ color:black;
 
 const ChannelInfo=styled.div`
 color:#606060;
-font-size:13px
+font-size:13px;
+margin-top:-16px
 `
 const ChannelDetails=styled.div`
 display:flex;

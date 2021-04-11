@@ -25,6 +25,7 @@ const getEmail=()=>{
 setState(user.email)
   })
 }
+const name=state.slice(0,state.length-8)
 useEffect(() => {
  getEmail()
 }, [state])
@@ -38,7 +39,7 @@ useEffect(() => {
 </AccessIcon>
     <input 
     type="text"
-    placeholder="search "
+    placeholder="search... "
     />
     <HelpIcon>
     <HelpOutlineIcon/>
@@ -50,7 +51,7 @@ useEffect(() => {
 <ImageFoto>
 <AccountBoxIcon/>
 </ImageFoto>
-{state}
+{name}
   <Logout>
       <button onClick={handleSignOut}>Log out</button>
       </Logout>
@@ -94,7 +95,7 @@ border-radius:3px;
 color:white;
 
 ::placeholder{
-	color:white;
+	color:rgba(0,0,0,0.8);
 }
 :focus{
 	outline:none
