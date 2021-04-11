@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/slack_chat/static/css/main.d81062ff.chunk.css",
+    "main.js": "/slack_chat/static/js/main.7a90a158.chunk.js",
+    "main.js.map": "/slack_chat/static/js/main.7a90a158.chunk.js.map",
+    "runtime-main.js": "/slack_chat/static/js/runtime-main.5ae3f1c4.js",
+    "runtime-main.js.map": "/slack_chat/static/js/runtime-main.5ae3f1c4.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/slack_chat/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.d218159f.chunk.js": "/slack_chat/static/js/2.d218159f.chunk.js",
+    "static/js/2.d218159f.chunk.js.map": "/slack_chat/static/js/2.d218159f.chunk.js.map",
+    "index.html": "/slack_chat/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/slack_chat/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.d81062ff.chunk.css.map": "/slack_chat/static/css/main.d81062ff.chunk.css.map",
+    "static/js/2.d218159f.chunk.js.LICENSE.txt": "/slack_chat/static/js/2.d218159f.chunk.js.LICENSE.txt",
+    "static/media/otabek.bd5ec802.jpg": "/slack_chat/static/media/otabek.bd5ec802.jpg",
+    "static/media/slackFoto.792989f3.jpg": "/slack_chat/static/media/slackFoto.792989f3.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5ae3f1c4.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.d218159f.chunk.js",
+    "static/css/main.d81062ff.chunk.css",
+    "static/js/main.7a90a158.chunk.js"
+  ]
+}
